@@ -121,3 +121,39 @@ Some related projects include:
 * [cve-rs](https://github.com/Speykious/cve-rs)
 * [Cargo Scan](https://github.com/PLSysSec/cargo-scan) (UC Davis and UC San Diego)
 * [Cargo Vet](https://github.com/mozilla/cargo-vet) (Mozilla).
+
+# Vulnerabilities Overview
+
+## /src/bin/cargo_wrapper.rs
+**Example 1** - CWE-426
+- **Source:** Line 66  
+- **Sink:** Line 243  
+
+**Example 2** - CWE-426
+- **Source:** Line 264  
+- **Sink:** Line 266  
+
+---
+
+## /src/bin/gdb_sudo.rs
+**Example 1** - CWE-123
+- **Source:** Line 58  
+- **Sink:** Line 33  
+
+---
+
+## /src/bin/proc_self_mem_1.rs
+**Example 4**  - CWE-123
+- **Source:** Line 29  
+- **Sink:** Line 14  
+
+---
+
+## /src/bin/proc_self_mem_2.rs
+**Example 5**  - CWE-787, CWE-119
+- **Source:** Line 55  
+- **Sink:** Line 22  
+
+**Example 6**  - CWE-125, CWE-119
+- **Source:** Line 34  
+- **Sink:** Line 39  
