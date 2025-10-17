@@ -143,17 +143,17 @@ Some related projects include:
 ---
 
 ## /src/bin/proc_self_mem_1.rs
-**Example 4**  - CWE-123
+**Example 1**  - CWE-123
 - **Source:** Line 29  
 - **Sink:** Line 14  
 
 ---
 
 ## /src/bin/proc_self_mem_2.rs
-**Example 5**  - CWE-787, CWE-119
+**Example 1**  - CWE-787, CWE-119
 - **Source:** Line 55  
 - **Sink:** Line 22  
 
-**Example 6**  - CWE-125, CWE-119
+**Example 2**  - CWE-125, CWE-119
 - **Source:** Line 34  
 - **Sink:** Line 39  
