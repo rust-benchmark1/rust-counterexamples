@@ -125,35 +125,35 @@ Some related projects include:
 # Vulnerabilities Overview
 
 ## /src/bin/cargo_wrapper.rs
-**Example 1** - CWE-426
+**Example 1** - CWE-426 - Not supported
 - **Source:** Line 66  
 - **Sink:** Line 243  
 
-**Example 2** - CWE-426
+**Example 2** - CWE-426 - Not supported
 - **Source:** Line 264  
 - **Sink:** Line 266  
 
 ---
 
 ## /src/bin/gdb_sudo.rs
-**Example 1** - CWE-123
+**Example 1** - CWE-123 - Not supported
 - **Source:** Line 58  
 - **Sink:** Line 33  
 
 ---
 
 ## /src/bin/proc_self_mem_1.rs
-**Example 1**  - CWE-123
+**Example 1**  - CWE-123 - Not supported
 - **Source:** Line 29  
 - **Sink:** Line 14  
 
 ---
 
 ## /src/bin/proc_self_mem_2.rs
-**Example 1**  - CWE-787, CWE-119
+**Example 1**  - CWE-787, CWE-119 - Not supported
 - **Source:** Line 55  
 - **Sink:** Line 22  
 
-**Example 2**  - CWE-125, CWE-119
+**Example 2**  - CWE-125, CWE-119 - Not supported
 - **Source:** Line 34  
 - **Sink:** Line 39  
