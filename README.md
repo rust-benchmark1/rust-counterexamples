@@ -125,12 +125,12 @@ Some related projects include:
 # Vulnerabilities Overview
 
 ## /src/bin/cargo_wrapper.rs
-**Example 1** - CWE-426 (Not supported), CWE-22 (Supported), CWE-78 (Supported)
+**Example 1** - CWE-426:Untrusted Search Path (Not supported), CWE-22:Path Traversal (Supported), CWE-78:OS Command Injection (Supported)
 For CWE-22 and CWE-78, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 66  
 - **Sink:** Line 243  
 
-**Example 2** - CWE-426 (Not supported), CWE-22 (Supported), CWE-78 (Supported)
+**Example 2** - CWE-426:Untrusted Search Path (Not supported), CWE-22:Path Traversal (Supported), CWE-78:OS Command Injection (Supported)
 For CWE-22 and CWE-78, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 264  
 - **Sink:** Line 266  
@@ -138,7 +138,7 @@ For CWE-22 and CWE-78, this is not expected to be detected since the source is n
 ---
 
 ## /src/bin/gdb_sudo.rs
-**Example 1** - CWE-123 (Not supported), CWE-78 (Supported)
+**Example 1** - CWE-123:Write-what-where Condition (Not supported), CWE-78:OS Command Injection (Supported)
 For CWE-78, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 59  
 - **Sink:** Line 33 
@@ -146,7 +146,7 @@ For CWE-78, this is not expected to be detected since the source is not an user 
 ---
 
 ## /src/bin/proc_self_mem_1.rs
-**Example 1**  - CWE-123 (Not supported), CWE-22 (Supported)
+**Example 1**  - CWE-123:Write-what-where Condition (Not supported), CWE-22:Path Traversal (Supported)
 For CWE-22, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 30  
 - **Sink:** Line 14  
@@ -154,12 +154,12 @@ For CWE-22, this is not expected to be detected since the source is not an user 
 ---
 
 ## /src/bin/proc_self_mem_2.rs
-**Example 1**  - CWE-787 (Not supported), CWE-119 (Not supported), CWE-22 (Supported)
+**Example 1**  - CWE-787:Out-of-bounds Write (Not supported), CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer (Not supported), CWE-22:Path Traversal (Supported)
 For CWE-22, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 55  
 - **Sink:** Line 22  
 
-**Example 2**  - CWE-125 (Not supported), CWE-119 (Not supported), CWE-22 (Supported)
+**Example 2**  - CWE-125:Out-of-bounds Read (Not supported), CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer (Not supported), CWE-22:Path Traversal (Supported)
 For CWE-22, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 34  
 - **Sink:** Line 35  
