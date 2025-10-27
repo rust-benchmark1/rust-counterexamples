@@ -129,6 +129,7 @@ Some related projects include:
 For CWE-22 and CWE-78, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 66  
 - **Sink:** Line 243  
+
 If `cargo_path` comes from user input, it will be detected. (CWE-22)
 If the executable on line 83 or args on line 84 comes from user input , it will be detected. (CWE-78)
 
@@ -136,6 +137,7 @@ If the executable on line 83 or args on line 84 comes from user input , it will 
 For CWE-22 and CWE-78, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 264  
 - **Sink:** Line 266  
+
 If `cargo_path` comes from user input, it will be detected.
 If the executable on line 235 or args on line 236 comes from user input , it will be detected. (CWE-78)
 ---
@@ -145,6 +147,7 @@ If the executable on line 235 or args on line 236 comes from user input , it wil
 For CWE-78, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 59  
 - **Sink:** Line 33 
+
 If the executable on line 17 or args on line 18 comes from user input , it will be detected. (CWE-78)
 ---
 
@@ -153,6 +156,7 @@ If the executable on line 17 or args on line 18 comes from user input , it will 
 For CWE-22, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 30  
 - **Sink:** Line 14  
+
 If  the filename on line 8 comes from user input, it will be detected. (CWE-22)
 ---
 
@@ -161,12 +165,14 @@ If  the filename on line 8 comes from user input, it will be detected. (CWE-22)
 For CWE-22, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 55  
 - **Sink:** Line 22  
+
 If  the filename on line 14 comes from user input, it will be detected. (CWE-22)
 
 **Example 2**  - CWE-125:Out-of-bounds Read (Not supported), CWE-119:Improper Restriction of Operations within the Bounds of a Memory Buffer (Not supported), CWE-22:Path Traversal (Supported)
 For CWE-22, this is not expected to be detected since the source is not an user input.
 - **Source:** Line 34  
 - **Sink:** Line 35  
+
 If  the filename on line 14 comes from user input, it will be detected. (CWE-22)
 
 ---
