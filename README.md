@@ -140,6 +140,7 @@ For CWE-22 and CWE-78, this is not expected to be detected since the source is n
 
 If `cargo_path` comes from user input, it will be detected.
 If the executable on line 235 or args on line 236 comes from user input , it will be detected. (CWE-78)
+
 ---
 
 ## /src/bin/gdb_sudo.rs
@@ -149,6 +150,7 @@ For CWE-78, this is not expected to be detected since the source is not an user 
 - **Sink:** Line 33 
 
 If the executable on line 17 or args on line 18 comes from user input , it will be detected. (CWE-78)
+
 ---
 
 ## /src/bin/proc_self_mem_1.rs
@@ -158,6 +160,7 @@ For CWE-22, this is not expected to be detected since the source is not an user 
 - **Sink:** Line 14  
 
 If  the filename on line 8 comes from user input, it will be detected. (CWE-22)
+
 ---
 
 ## /src/bin/proc_self_mem_2.rs
@@ -176,7 +179,8 @@ For CWE-22, this is not expected to be detected since the source is not an user 
 If  the filename on line 14 comes from user input, it will be detected. (CWE-22)
 
 ---
-Memory related vulnerabilities:
+
+## Memory related vulnerabilities
 
 ## /examples/large_array_initialization.rs
 **Example 1**  - CWE-665:Improper Initialization that could go into Dos (examples folder)
