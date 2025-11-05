@@ -127,6 +127,7 @@ Some related projects include:
 ## /src/bin/cargo_wrapper.rs
 **Example 1** - CWE-426:Untrusted Search Path (Not supported), CWE-22:Path Traversal (Supported), CWE-78:OS Command Injection (Supported)
 For CWE-22 and CWE-78, this is not expected to be detected since the source is not an user input.
+The source is low probability.
 - **Source:** Line 66  
 - **Sink:** Line 243  
 
@@ -135,6 +136,7 @@ If the executable on line 83 or args on line 84 comes from user input , it will 
 
 **Example 2** - CWE-426:Untrusted Search Path (Not supported), CWE-22:Path Traversal (Supported), CWE-78:OS Command Injection (Supported)
 For CWE-22 and CWE-78, this is not expected to be detected since the source is not an user input.
+The source is low probability.
 - **Source:** Line 264  
 - **Sink:** Line 266  
 
